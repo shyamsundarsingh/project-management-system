@@ -1,0 +1,18 @@
+body{ font-family: Arial, sans-serif; margin:0; padding:0; }
+.center{ display:flex; align-items:center; justify-content:center; min-height:70vh; flex-direction:column; }
+.card{ padding:20px; border:1px solid #ddd; border-radius:8px; width:320px; }
+input{ display:block; width:100%; padding:8px; margin:8px 0; }
+button{ padding:8px 12px; }
+.layout{ display:flex; min-height:100vh; }
+.sidebar {
+    width: 200px;
+    background: #0a1d2c;
+    padding: 16px;
+}
+.sidebar ul{ list-style:none; padding:0; }
+.sidebar li{ margin:8px 0; }
+.main{ flex:1; padding:24px; }
+.table{ width:100%; border-collapse:collapse; }
+.table th, .table td{ border:1px solid #ddd; padding:8px; }
+.link-btn{ background:none; border:none; color:blue; text-decoration:underline; cursor:pointer; }
+.error{ color:red; }
